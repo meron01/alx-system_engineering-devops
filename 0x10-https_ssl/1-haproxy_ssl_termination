@@ -45,5 +45,5 @@ backend www
 	balance roundrobin
     option httpclose
    	option forwardfor
-	server 959-web-01 35.227.20.159:80 check
-	server 959-web-02 3.209.56.205:80 check
+	server 959-web-01 34.198.248.145:80 check
+	server 959-web-02 54.89.38.100:80 check
